@@ -1,0 +1,383 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Ad.classm	androidspokecalculator/l/GoogleAdMobAdsSdk-6.2.1.jar	/^PK/;"	typedefs
+Ad.classm	androidspokecalculator/libs/GoogleAdMobAdsSdk-6.2.1.jar	/^PK/;"	typedefs
+ArrayAdapter	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity.class	/^/;"	typedefs
+AssetManager	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/DatabaseAdapter.class	/^Exceptions/;"	typedefs
+AttributeSet	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/MySpinner.class	/^/;"	typedefs
+Brand	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Brand.java	/^public class Brand$/;"	c
+BuildConfig	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/BuildConfig.class	/^/;"	typedefs
+BuildConfig	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+COLUMN_BRAND_NAME	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public  static final String COLUMN_BRAND_NAME = "name";$/;"	f	class:DatabaseAdapter
+COLUMN_ID	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public  static final String COLUMN_ID         = "_id";$/;"	f	class:DatabaseAdapter
+CalculateSpokeLength	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	public void CalculateSpokeLength()$/;"	m	class:SpokeCalculation
+ChrisKingUniversalDiscRearHub	tests_host/src/basic.java	/^	private Hub 	           ChrisKingUniversalDiscRearHub;$/;"	f	class:basic	file:
+ComponentContainer	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/ComponentContainer.java	/^   public ComponentContainer()$/;"	m	class:ComponentContainer
+ComponentContainer	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/ComponentContainer.java	/^public class ComponentContainer $/;"	c
+ComponentMarshal	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/ComponentMarshal.java	/^public class ComponentMarshal $/;"	c
+Context	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/MySpinner.class	/^/;"	typedefs
+DATABASE_FILENAME	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    private static final String DATABASE_FILENAME     = "spokecalculator.db";$/;"	f	class:DatabaseAdapter	file:
+DATABASE_PATH	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public  static final String DATABASE_PATH     = "\/data\/data\/com.kineticsproject.spokecalculator.android\/";$/;"	f	class:DatabaseAdapter
+DATABASE_VERSION	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    private static final int DATABASE_VERSION     = 1;$/;"	f	class:DatabaseAdapter	file:
+DEBUG	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/BuildConfig.java	/^    public final static boolean DEBUG = true;$/;"	f	class:BuildConfig
+DatabaseAdapter	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public DatabaseAdapter(Context context)$/;"	m	class:DatabaseAdapter
+DatabaseAdapter	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^public class DatabaseAdapter extends SQLiteOpenHelper implements com.kineticsproject.spokecalculator.calculator.DatabaseInterface$/;"	c
+DatabaseAdapter	tests_host/src/DatabaseAdapter.java	/^public class DatabaseAdapter implements com.kineticsproject.spokecalculator.calculator.DatabaseInterface$/;"	c
+DatabaseInterface	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^public interface DatabaseInterface$/;"	i
+DbtoHub	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public boolean DbtoHub(Hub h, java.lang.Object st) throws Exception$/;"	m	class:DatabaseAdapter
+DbtoHub	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^    public boolean DbtoHub(Hub h, java.lang.Object st) throws Exception;$/;"	m	interface:DatabaseInterface
+DbtoHub	tests_host/src/DatabaseAdapter.java	/^    public boolean DbtoHub(Hub h, java.lang.Object st) throws SQLiteException$/;"	m	class:DatabaseAdapter
+DbtoHubWithBrandJoin	tests_host/src/DatabaseAdapter.java	/^    public boolean DbtoHubWithBrandJoin(Hub h, java.lang.Object st) throws SQLiteException$/;"	m	class:DatabaseAdapter
+DbtoRim	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public boolean DbtoRim(Rim r, java.lang.Object st) throws Exception$/;"	m	class:DatabaseAdapter
+DbtoRim	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^    public boolean DbtoRim(Rim r, java.lang.Object st) throws Exception;$/;"	m	interface:DatabaseInterface
+DbtoRim	tests_host/src/DatabaseAdapter.java	/^    public boolean DbtoRim(Rim r, java.lang.Object st) throws SQLiteException$/;"	m	class:DatabaseAdapter
+DbtoRimWithBrandJoin	tests_host/src/DatabaseAdapter.java	/^    public boolean DbtoRimWithBrandJoin(Rim r, java.lang.Object st) throws SQLiteException$/;"	m	class:DatabaseAdapter
+ExampleHub	tests_host/src/basic.java	/^	private Hub                ExampleHub;$/;"	f	class:basic	file:
+ExampleRim	tests_host/src/basic.java	/^	private Rim                ExampleRim;$/;"	f	class:basic	file:
+ExampleWheel	tests_host/src/basic.java	/^	private Wheel              ExampleWheel;$/;"	f	class:basic	file:
+ExampleWheel	tests_host/src/basic.java	/^	public void ExampleWheel()$/;"	m	class:basic
+HFO	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	private int HFO; \/\/ Hub Flange Offset$/;"	f	class:SpokeCalculation	file:
+HSR	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	private int HSR; \/\/ Hub Spoke Radius$/;"	f	class:SpokeCalculation	file:
+Hub	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/DatabaseAdapter.class	/^newVersion/;"	typedefs
+Hub	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public Hub()$/;"	m	class:Hub
+Hub	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public Hub(Hub h)$/;"	m	class:Hub
+Hub	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public Hub(double driveSideFlangeDiameter,$/;"	m	class:Hub
+Hub	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^    public Hub(double dsfd, double ndsfd, int sh, double ctdf, double ctndf, String m, String bn, int bi, int id)$/;"	m	class:Hub
+Hub	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^public class Hub $/;"	c
+ID	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public int    ID;$/;"	f	class:Hub
+ID	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public  int    ID;$/;"	f	class:Rim
+KingUniversalonStansOlympic26_ThreeCrossWheel	tests_host/src/basic.java	/^	public void KingUniversalonStansOlympic26_ThreeCrossWheel()$/;"	m	class:basic
+List	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/DatabaseAdapter.class	/^getHubByID/;"	typedefs
+MySpinner	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/MySpinner.class	/^/;"	typedefs
+MySpinner	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity.class	/^/;"	typedefs
+MySpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/MySpinner.java	/^    public MySpinner(Context context)$/;"	m	class:MySpinner
+MySpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/MySpinner.java	/^    public MySpinner(Context context, AttributeSet att, int defStyle)$/;"	m	class:MySpinner
+MySpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/MySpinner.java	/^    public MySpinner(Context context, AttributeSet att, int defStyle, int mode)$/;"	m	class:MySpinner
+MySpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/MySpinner.java	/^    public MySpinner(Context context, AttributeSet attr)$/;"	m	class:MySpinner
+MySpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/MySpinner.java	/^public class MySpinner extends Spinner$/;"	c
+Object	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/DatabaseAdapter.class	/^newVersion/;"	typedefs
+PK	androidspokecalculator/l/GoogleAdMobAdsSdk-6.2.1.jar	/^PK/;"	typedefs
+PK	androidspokecalculator/libs/GoogleAdMobAdsSdk-6.2.1.jar	/^PK/;"	typedefs
+Q	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/MySpinner.class	/^/;"	typedefs
+R	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^public final class R {$/;"	c
+R$array	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/R$array.class	/^/;"	typedefs
+R$attr	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/R$attr.class	/^/;"	typedefs
+R$drawable	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/R$drawable.class	/^calculator/;"	typedefs
+R$layout	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/R$layout.class	/^/;"	typedefs
+R$string	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/R$string.class	/^/;"	typedefs
+RRSP	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	private int RRSP; \/\/Rim Radius plus Spoke Penetration$/;"	f	class:SpokeCalculation	file:
+Rim	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/DatabaseAdapter.class	/^getHubByID/;"	typedefs
+Rim	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public Rim()$/;"	m	class:Rim
+Rim	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public Rim(double erd, int sbo, int shs)$/;"	m	class:Rim
+Rim	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^    public Rim(double erd, String model, String brandName, int brandID, double diameter, int ID, int holes)$/;"	m	class:Rim
+Rim	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^public class Rim $/;"	c
+SAA	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	private int SAA; \/\/ Spoke Anchor Angle$/;"	f	class:SpokeCalculation	file:
+SpokeAnchorAngle	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	private int SpokeAnchorAngle;$/;"	f	class:SpokeCalculation	file:
+SpokeBedOffset	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public  int    SpokeBedOffset; \/\/ mm$/;"	f	class:Rim
+SpokeCalculation	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	public SpokeCalculation()$/;"	m	class:SpokeCalculation
+SpokeCalculation	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^public class SpokeCalculation $/;"	c
+SpokeHoleStagger	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public  int    SpokeHoleStagger; \/\/ mm $/;"	f	class:Rim
+StansCrest29	tests_host/src/basic.java	/^    private Rim                StansCrest29;$/;"	f	class:basic	file:
+StansOlympic26	tests_host/src/basic.java	/^	private Rim   		       StansOlympic26;$/;"	f	class:basic	file:
+TABLE_BRANDS	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public  static final String TABLE_BRANDS      = "brands";$/;"	f	class:DatabaseAdapter
+TestAllBrands	tests_host/src/basic.java	/^    public void TestAllBrands() throws Exception$/;"	m	class:basic
+TestChrisKingUiversalDiscByID	tests_host/src/basic.java	/^    public void TestChrisKingUiversalDiscByID()$/;"	m	class:basic
+TestDBChrisKingHubs	tests_host/src/basic.java	/^	public void TestDBChrisKingHubs() throws Exception$/;"	m	class:basic
+TestDBNoTubesRims	tests_host/src/basic.java	/^	public void TestDBNoTubesRims() throws Exception$/;"	m	class:basic
+TestDBOlympic26OnChrisKingUniversal	tests_host/src/basic.java	/^	public void TestDBOlympic26OnChrisKingUniversal() throws Exception$/;"	m	class:basic
+TestHubBrands	tests_host/src/basic.java	/^    public void TestHubBrands() throws Exception$/;"	m	class:basic
+TestHubCopy	tests_host/src/basic.java	/^    public void TestHubCopy()$/;"	m	class:basic
+TestHubEquals	tests_host/src/basic.java	/^    public void TestHubEquals() throws Exception$/;"	m	class:basic
+TestRimBrands	tests_host/src/basic.java	/^	public void TestRimBrands() throws Exception$/;"	m	class:basic
+TestRimEquals	tests_host/src/basic.java	/^    public void TestRimEquals() throws Exception$/;"	m	class:basic
+TextView	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity.class	/^/;"	typedefs
+U	androidspokecalculator/bin/res/drawable-hdpi/pennyfarthing.png	/^ië\\mmœ∫øFïVÇî…NEP`_Á˚ßÎ/;"	typedefs
+Wheel	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	public Wheel(Rim rim, Hub hub, int crosses, int spokes) $/;"	m	class:Wheel
+Wheel	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^public class Wheel $/;"	c
+adView	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int adView=0x7f060011;$/;"	f	class:R.id
+adWhirlGeneric	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    public void adWhirlGeneric() $/;"	m	class:mainActivity
+adWhirlLayout	androidspokecalculator/l/README	/^	AdWhirlLayout adWhirlLayout = new AdWhirlLayout(this, "AdWhirl SDK Key");$/;"	typedefs
+adWhirlLayout	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private AdWhirlLayout adWhirlLayout;$/;"	f	class:mainActivity	file:
+adWhirlLayoutParams	androidspokecalculator/l/README	/^	RelativeLayout.LayoutParams adWhirlLayoutParams = new RelativeLayout.LayoutParams(320, 52);$/;"	typedefs
+adapter	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private ArrayAdapter<Brand> adapter;$/;"	f	class:mainActivity	file:
+adapterRimBrand	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private ArrayAdapter<Brand> adapterRimBrand;$/;"	f	class:mainActivity	file:
+adapterRimModel	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private ArrayAdapter<Rim>   adapterRimModel;$/;"	f	class:mainActivity	file:
+allColumns	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    private String[] allColumns = { COLUMN_ID, COLUMN_BRAND_NAME };$/;"	f	class:DatabaseAdapter	file:
+app_name	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int app_name=0x7f040000;$/;"	f	class:R.string
+array	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^    public static final class array {$/;"	c	class:R
+attr	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^    public static final class attr {$/;"	c	class:R
+basic	tests_host/src/basic.java	/^public class basic extends SpokeCalculation$/;"	c
+blurRearWheel	tests_host/src/basic.java	/^	private Wheel 	           blurRearWheel;$/;"	f	class:basic	file:
+brandID	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^    public int    brandID;$/;"	f	class:Hub
+brandID	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public  int    brandID;$/;"	f	class:Rim
+brandName	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public String brandName;$/;"	f	class:Hub
+brandName	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^    public  String brandName;$/;"	f	class:Rim
+calculateButton	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private Button calculateButton;$/;"	f	class:mainActivity	file:
+calculateDriveSideSpokeLength	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	private double calculateDriveSideSpokeLength()$/;"	m	class:SpokeCalculation	file:
+calculateDriveSideSpokeLength	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	public double calculateDriveSideSpokeLength()$/;"	m	class:Wheel
+calculateHubFlangeOffset	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	protected double calculateHubFlangeOffset()$/;"	m	class:SpokeCalculation
+calculateNonDriveSideSpokeLength	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	private double calculateNonDriveSideSpokeLength()$/;"	m	class:SpokeCalculation	file:
+calculateNonDriveSideSpokeLength	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	public double calculateNonDriveSideSpokeLength()$/;"	m	class:Wheel
+calculateSpokeAnchorAngle	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	static protected double calculateSpokeAnchorAngle(int spokeHoles, int spokeCrosses)$/;"	m	class:SpokeCalculation
+calculateSpokeLength	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    public void calculateSpokeLength()$/;"	m	class:mainActivity
+calculateSpokeLength	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	private double calculateSpokeLength(double offset, double diameter)$/;"	m	class:Wheel	file:
+calculator	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int calculator=0x7f020000;$/;"	f	class:R.drawable
+centerToDriveFlange	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public double centerToDriveFlange;$/;"	f	class:Hub
+centerToNonDriveFlange	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public double centerToNonDriveFlange;$/;"	f	class:Hub
+checkDataBase	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    private boolean checkDataBase(String DB)$/;"	m	class:DatabaseAdapter	file:
+checkEnableCalculateButton	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private void checkEnableCalculateButton()$/;"	m	class:mainActivity	file:
+close	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public synchronized void close() $/;"	m	class:DatabaseAdapter
+com.kineticsproject.spokecalculator.android	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/BuildConfig.java	/^package com.kineticsproject.spokecalculator.android;$/;"	p
+com.kineticsproject.spokecalculator.android	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^package com.kineticsproject.spokecalculator.android;$/;"	p
+com.kineticsproject.spokecalculator.android	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^package com.kineticsproject.spokecalculator.android;$/;"	p
+com.kineticsproject.spokecalculator.android	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/MySpinner.java	/^package com.kineticsproject.spokecalculator.android;$/;"	p
+com.kineticsproject.spokecalculator.android	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^package com.kineticsproject.spokecalculator.android;$/;"	p
+com.kineticsproject.spokecalculator.android	androidspokecalculator_test/src/com/kineticsproject/spokecalculator/android/mainActivityTest.java	/^package com.kineticsproject.spokecalculator.android;$/;"	p
+com.kineticsproject.spokecalculator.calculator	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Brand.java	/^package com.kineticsproject.spokecalculator.calculator;$/;"	p
+com.kineticsproject.spokecalculator.calculator	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/ComponentContainer.java	/^package com.kineticsproject.spokecalculator.calculator;$/;"	p
+com.kineticsproject.spokecalculator.calculator	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/ComponentMarshal.java	/^package com.kineticsproject.spokecalculator.calculator;$/;"	p
+com.kineticsproject.spokecalculator.calculator	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^package com.kineticsproject.spokecalculator.calculator;$/;"	p
+com.kineticsproject.spokecalculator.calculator	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^package com.kineticsproject.spokecalculator.calculator;$/;"	p
+com.kineticsproject.spokecalculator.calculator	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^package com.kineticsproject.spokecalculator.calculator;$/;"	p
+com.kineticsproject.spokecalculator.calculator	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^package com.kineticsproject.spokecalculator.calculator;$/;"	p
+com.kineticsproject.spokecalculator.calculator	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^package com.kineticsproject.spokecalculator.calculator;$/;"	p
+components	tests_host/src/basic.java	/^	private ComponentContainer components;$/;"	f	class:basic	file:
+copyDataBase	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    private void copyDataBase(String dbName) $/;"	m	class:DatabaseAdapter	file:
+createDataBase	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public boolean createDataBase() $/;"	m	class:DatabaseAdapter
+crosses	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	private int crosses;$/;"	f	class:Wheel	file:
+currentContext	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    private Context currentContext;$/;"	f	class:DatabaseAdapter	file:
+cursorToBrand	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    private Brand cursorToBrand(Cursor cursor, Brand b) $/;"	m	class:DatabaseAdapter	file:
+cursorToHub	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    private Hub cursorToHub(Cursor cursor, Hub h) $/;"	m	class:DatabaseAdapter	file:
+cursorToRimWithBrandJoin	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public boolean cursorToRimWithBrandJoin(Cursor c, Rim r) $/;"	m	class:DatabaseAdapter
+database	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    private SQLiteDatabase database;$/;"	f	class:DatabaseAdapter	file:
+dbAdapter	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity.class	/^/;"	typedefs
+dbAdapter	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private com.kineticsproject.spokecalculator.android.DatabaseAdapter dbAdapter;$/;"	f	class:mainActivity	file:
+dbAdapter	tests_host/src/basic.java	/^    private DatabaseAdapter    dbAdapter;$/;"	f	class:basic	file:
+delta	tests_host/src/basic.java	/^	private final double       delta = 0.05;$/;"	f	class:basic	file:
+diameter	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^    public  double diameter;$/;"	f	class:Rim
+display	androidspokecalculator/l/README	/^You can choose whatever size you want for the layout. We suggest 320x52, as this is the largest ad unit size. If you choose to make the view smaller, ads will still display, but may cut off a few pixels and display a small scroll bar.$/;"	typedefs
+doubleDelta	tests_host/src/basic.java	/^    static final double        doubleDelta = 0.001;$/;"	f	class:basic
+drawable	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^    public static final class drawable {$/;"	c	class:R
+driveSideFlangeDiameter	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public double driveSideFlangeDiameter;$/;"	f	class:Hub
+driveSideSpokeLengthTextView	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private TextView  driveSideSpokeLengthTextView;$/;"	f	class:mainActivity	file:
+driveside_spokelength_label_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int driveside_spokelength_label_textview=0x7f06000e;$/;"	f	class:R.id
+driveside_spokelength_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int driveside_spokelength_textview=0x7f060010;$/;"	f	class:R.id
+effectiveRimDiameter	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public  double effectiveRimDiameter;$/;"	f	class:Rim
+equals	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^    public boolean equals(Hub h)$/;"	m	class:Hub
+equals	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^    public boolean equals(Rim r)$/;"	m	class:Rim
+eÀ˚˚ˇ¸Ú	androidspokecalculator/assets/pennyfarthing.xcf	/^eÀ˚˚ˇ¸Ú¶ /;"	typedefs
+getAllBrands	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public List<Brand> getAllBrands() throws Exception$/;"	m	class:DatabaseAdapter
+getAllBrands	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^    public List<Brand> getAllBrands() throws Exception;$/;"	m	interface:DatabaseInterface
+getAllBrands	tests_host/src/DatabaseAdapter.java	/^public List<Brand> getAllBrands() throws SQLiteException$/;"	m	class:DatabaseAdapter
+getCenterToDriveFlange	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public double getCenterToDriveFlange()$/;"	m	class:Hub
+getCentertoNonDriveFlange	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public double getCentertoNonDriveFlange()$/;"	m	class:Hub
+getCrosses	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	public int getCrosses() $/;"	m	class:Wheel
+getDriveSideFlangeDiameter	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public double getDriveSideFlangeDiameter()$/;"	m	class:Hub
+getDrivesideSpokes	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	public double getDrivesideSpokes()$/;"	m	class:Wheel
+getEffectiveRimDiameter	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public double getEffectiveRimDiameter() $/;"	m	class:Rim
+getHub	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	public Hub getHub() $/;"	m	class:Wheel
+getHubBrands	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public List<Brand> getHubBrands() throws Exception$/;"	m	class:DatabaseAdapter
+getHubBrands	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^    public List<Brand> getHubBrands() throws Exception;$/;"	m	interface:DatabaseInterface
+getHubBrands	tests_host/src/DatabaseAdapter.java	/^    public List<Brand> getHubBrands() throws SQLiteException$/;"	m	class:DatabaseAdapter
+getHubByID	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public boolean getHubByID(int hub_id, Hub h) throws Exception$/;"	m	class:DatabaseAdapter
+getHubByID	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^    public boolean getHubByID(int hub_id, Hub hub) throws Exception;$/;"	m	interface:DatabaseInterface
+getHubByID	tests_host/src/DatabaseAdapter.java	/^    public boolean getHubByID(int hub_id, Hub hub) throws SQLiteException$/;"	m	class:DatabaseAdapter
+getHubsOfBrand	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public List<Hub> getHubsOfBrand(int brand_id) throws Exception$/;"	m	class:DatabaseAdapter
+getHubsOfBrand	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^    public List<Hub> getHubsOfBrand(int brand_id) throws Exception;$/;"	m	interface:DatabaseInterface
+getHubsOfBrand	tests_host/src/DatabaseAdapter.java	/^    public List<Hub> getHubsOfBrand(int brand_id) throws SQLiteException$/;"	m	class:DatabaseAdapter
+getModel	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public String getModel()$/;"	m	class:Hub
+getModel	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public String getModel() {$/;"	m	class:Rim
+getNondriveSideFlangeDiameter	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public double getNondriveSideFlangeDiameter()$/;"	m	class:Hub
+getNondrivesideSpokes	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	public double getNondrivesideSpokes()$/;"	m	class:Wheel
+getRim	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	public Rim getRim() $/;"	m	class:Wheel
+getRimBrands	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public List<Brand> getRimBrands() throws Exception$/;"	m	class:DatabaseAdapter
+getRimBrands	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^    public List<Brand> getRimBrands() throws Exception;$/;"	m	interface:DatabaseInterface
+getRimBrands	tests_host/src/DatabaseAdapter.java	/^    public List<Brand> getRimBrands() throws SQLiteException$/;"	m	class:DatabaseAdapter
+getRimByID	tests_host/src/DatabaseAdapter.java	/^    public boolean getRimByID(int rim_id, Rim rim) throws SQLiteException$/;"	m	class:DatabaseAdapter
+getRimsOfBrand	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public List<Rim> getRimsOfBrand(int brand_id) throws Exception$/;"	m	class:DatabaseAdapter
+getRimsOfBrand	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^    public List<Rim> getRimsOfBrand(int brand_id) throws Exception;$/;"	m	interface:DatabaseInterface
+getRimsOfBrand	tests_host/src/DatabaseAdapter.java	/^    public List<Rim> getRimsOfBrand(int brand_id) throws SQLiteException$/;"	m	class:DatabaseAdapter
+getSpokeBedOffset	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public int getSpokeBedOffset() $/;"	m	class:Rim
+getSpokeHoleStagger	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public int getSpokeHoleStagger() $/;"	m	class:Rim
+getSpokeHoles	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public int getSpokeHoles()$/;"	m	class:Hub
+getSpokes	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	public int getSpokes() {$/;"	m	class:Wheel
+h	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/MySpinner.class	/^/;"	typedefs
+hub	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	private Hub hub;$/;"	f	class:Wheel	file:
+hubArray	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private Hub[]     hubArray;$/;"	f	class:mainActivity	file:
+hubBrandArray	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private Brand[]   hubBrandArray;$/;"	f	class:mainActivity	file:
+hubBrandIndex	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private int       hubBrandIndex;$/;"	f	class:mainActivity	file:
+hubBrandSelectedListener	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private OnItemSelectedListener hubBrandSelectedListener = new OnItemSelectedListener()$/;"	f	class:mainActivity	file:
+hubBrandSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private MySpinner hubBrandSpinner;$/;"	f	class:mainActivity	file:
+hubBrandTextView	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private TextView  hubBrandTextView;$/;"	f	class:mainActivity	file:
+hubCenterToDriveFlangeIndex	tests_host/src/DatabaseAdapter.java	/^static final int hubCenterToDriveFlangeIndex        = 6;$/;"	f	class:DatabaseAdapter
+hubCenterToNonDriveFlangeIndex	tests_host/src/DatabaseAdapter.java	/^static final int hubCenterToNonDriveFlangeIndex     = 7; $/;"	f	class:DatabaseAdapter
+hubDriveSideFlangeDiameterIndex	tests_host/src/DatabaseAdapter.java	/^static final int hubDriveSideFlangeDiameterIndex    = 8;$/;"	f	class:DatabaseAdapter
+hubManufacturerIndex	tests_host/src/DatabaseAdapter.java	/^static final int hubManufacturerIndex               = 1;$/;"	f	class:DatabaseAdapter
+hubModelIndex	tests_host/src/DatabaseAdapter.java	/^static final int hubModelIndex                      = 2;$/;"	f	class:DatabaseAdapter
+hubModelSelectedListener	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private OnItemSelectedListener hubModelSelectedListener = new OnItemSelectedListener()$/;"	f	class:mainActivity	file:
+hubModelSelection	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private int       hubModelSelection;$/;"	f	class:mainActivity	file:
+hubModelSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private MySpinner hubModelSpinner;$/;"	f	class:mainActivity	file:
+hubModelTextView	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private TextView  hubModelTextView;$/;"	f	class:mainActivity	file:
+hubNonDriveSideFlangeDiameterIndex	tests_host/src/DatabaseAdapter.java	/^static final int hubNonDriveSideFlangeDiameterIndex = 9;$/;"	f	class:DatabaseAdapter
+hubSpokeHolesIndex	tests_host/src/DatabaseAdapter.java	/^static final int hubSpokeHolesIndex                 = 10;$/;"	f	class:DatabaseAdapter
+hub_brand_spinner	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int hub_brand_spinner=0x7f060003;$/;"	f	class:R.id
+hub_brand_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int hub_brand_textview=0x7f060001;$/;"	f	class:R.id
+hub_model_spinner	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int hub_model_spinner=0x7f060004;$/;"	f	class:R.id
+hub_model_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int hub_model_textview=0x7f060002;$/;"	f	class:R.id
+hubs	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/ComponentContainer.java	/^   public Set<Hub> hubs;$/;"	f	class:ComponentContainer
+hubs	tests_host/src/basic.java	/^	private Collection<Hub>    hubs;$/;"	f	class:basic	file:
+id	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^    public static final class id {$/;"	c	class:R
+id	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Brand.java	/^       public int    id;$/;"	f	class:Brand
+init	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/MySpinner.java	/^    private void init()$/;"	m	class:MySpinner	file:
+isSelectionValid	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/MySpinner.java	/^    public boolean isSelectionValid()$/;"	m	class:MySpinner
+k	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity$5.class	/^ ˛∫æ/;"	typedefs
+layout	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^    public static final class layout {$/;"	c	class:R
+layout.addView	androidspokecalculator/l/README	/^	layout.addView(adWhirlLayout, adWhirlLayoutParams);$/;"	m
+layout_main	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int layout_main=0x7f060012;$/;"	f	class:R.id
+main	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int main=0x7f030000;$/;"	f	class:R.layout
+mainActivity	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity$1.class	/^/;"	typedefs
+mainActivity	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity$2.class	/^/;"	typedefs
+mainActivity	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity$3.class	/^/;"	typedefs
+mainActivity	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^public class mainActivity extends Activity implements AdWhirlInterface$/;"	c
+mainActivityTest	androidspokecalculator_test/src/com/kineticsproject/spokecalculator/android/mainActivityTest.java	/^    public mainActivityTest() $/;"	m	class:mainActivityTest
+mainActivityTest	androidspokecalculator_test/src/com/kineticsproject/spokecalculator/android/mainActivityTest.java	/^public class mainActivityTest extends ActivityInstrumentationTestCase2<mainActivity>$/;"	c
+model	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public String model;$/;"	f	class:Hub
+model	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^    public  String model;$/;"	f	class:Rim
+name	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Brand.java	/^       public String name;$/;"	f	class:Brand
+nondriveSideFlangeDiameter	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public double nondriveSideFlangeDiameter;$/;"	f	class:Hub
+nondriveSideSpokeLengthTextView	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private TextView  nondriveSideSpokeLengthTextView;$/;"	f	class:mainActivity	file:
+nondriveside_spokelength_label_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int nondriveside_spokelength_label_textview=0x7f06000d;$/;"	f	class:R.id
+nondriveside_spokelength_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int nondriveside_spokelength_textview=0x7f06000f;$/;"	f	class:R.id
+o	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity$2.class	/^ ˛∫æ/;"	typedefs
+o	androidspokecalculator/l/sqlite4java-282/libsqlite4java-osx-ppc.jnilib	/^0/;"	typedefs
+onCreate	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public void onCreate(SQLiteDatabase db)$/;"	m	class:DatabaseAdapter
+onCreate	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    public void onCreate(Bundle savedInstanceState)$/;"	m	class:mainActivity
+onSaveInstanceState	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    protected void onSaveInstanceState(Bundle data)$/;"	m	class:mainActivity
+onUpgrade	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)$/;"	m	class:DatabaseAdapter
+open	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public boolean open() $/;"	m	class:DatabaseAdapter
+open	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^    public boolean open();$/;"	m	interface:DatabaseInterface
+open	tests_host/src/DatabaseAdapter.java	/^public boolean open()$/;"	m	class:DatabaseAdapter
+openDataBase	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public boolean openDataBase() $/;"	m	class:DatabaseAdapter
+pennyfarthing	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int pennyfarthing=0x7f020001;$/;"	f	class:R.drawable
+populateHubBrandSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    public void populateHubBrandSpinner()$/;"	m	class:mainActivity
+populateHubModelSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    public void populateHubModelSpinner(int brandIndex)$/;"	m	class:mainActivity
+populateRimBrandSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    public void populateRimBrandSpinner()$/;"	m	class:mainActivity
+populateRimModelSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    public void populateRimModelSpinner(int brand)$/;"	m	class:mainActivity
+populateSpokeCountSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    public void populateSpokeCountSpinner()$/;"	m	class:mainActivity
+populateSpokeCrossSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    public void populateSpokeCrossSpinner()$/;"	m	class:mainActivity
+printString	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^    public static void printString(Hub h)$/;"	m	class:Hub
+printString	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^    public void printString()$/;"	m	class:Hub
+quality	androidspokecalculator/assets/pennyfarthing.xcf	/^Z/;"	typedefs
+queryDatabase	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/DatabaseAdapter.java	/^    public java.lang.Object queryDatabase(String query) throws Exception$/;"	m	class:DatabaseAdapter
+queryDatabase	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/DatabaseInterface.java	/^    public java.lang.Object queryDatabase(String query) throws Exception;$/;"	m	interface:DatabaseInterface
+queryDatabase	tests_host/src/DatabaseAdapter.java	/^    public SQLiteStatement queryDatabase(String query) throws SQLiteException$/;"	m	class:DatabaseAdapter
+rim	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	private Rim rim;$/;"	f	class:Wheel	file:
+rimArray	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private Rim[]     rimArray;$/;"	f	class:mainActivity	file:
+rimBrandArray	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private Brand[]   rimBrandArray;$/;"	f	class:mainActivity	file:
+rimBrandIndex	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private int       rimBrandIndex;$/;"	f	class:mainActivity	file:
+rimBrandSelectedListener	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private OnItemSelectedListener rimBrandSelectedListener = new OnItemSelectedListener()$/;"	f	class:mainActivity	file:
+rimBrandSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private MySpinner rimBrandSpinner; $/;"	f	class:mainActivity	file:
+rimBrandTextView	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private TextView  rimBrandTextView;$/;"	f	class:mainActivity	file:
+rimERDIndex	tests_host/src/DatabaseAdapter.java	/^static final int rimERDIndex                        = 15;$/;"	f	class:DatabaseAdapter
+rimManufacturerIndex	tests_host/src/DatabaseAdapter.java	/^static final int rimManufacturerIndex               = 1;$/;"	f	class:DatabaseAdapter
+rimModelIndex	tests_host/src/DatabaseAdapter.java	/^static final int rimModelIndex                      = 2;$/;"	f	class:DatabaseAdapter
+rimModelSelectedListener	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private OnItemSelectedListener rimModelSelectedListener = new OnItemSelectedListener()$/;"	f	class:mainActivity	file:
+rimModelSelection	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private int       rimModelSelection;$/;"	f	class:mainActivity	file:
+rimModelSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private MySpinner rimModelSpinner;$/;"	f	class:mainActivity	file:
+rimModelTextView	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private TextView  rimModelTextView;$/;"	f	class:mainActivity	file:
+rim_brand_spinner	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int rim_brand_spinner=0x7f06000b;$/;"	f	class:R.id
+rim_brand_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int rim_brand_textview=0x7f060009;$/;"	f	class:R.id
+rim_model_spinner	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int rim_model_spinner=0x7f06000c;$/;"	f	class:R.id
+rim_model_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int rim_model_textview=0x7f06000a;$/;"	f	class:R.id
+rims	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/ComponentContainer.java	/^   public Set<Rim> rims;$/;"	f	class:ComponentContainer
+rims	tests_host/src/basic.java	/^	private Collection<Rim>    rims;$/;"	f	class:basic	file:
+roundTwoDecimals	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private static String roundTwoDecimals(double d)$/;"	m	class:mainActivity	file:
+s	androidspokecalculator/bin/spokecalculator-release-unaligned.apk	/^—¢·ƒô45Ñ˘·Õ_„[ÏÅO˘Ã„HòàlÄ±Ê˛l⁄ÁõU[öqt8µ(1E.;/;"	typedefs
+s	androidspokecalculator/bin/spokecalculator-release.apk	/^—¢·ƒô45Ñ˘·Õ_„[ÏÅO˘Ã„HòàlÄ±Ê˛l⁄ÁõU[öqt8µ(1E.;/;"	typedefs
+s	androidspokecalculator/l/sqlite4java-282/sqlite4java-src.zip	/^/;"	typedefs
+select	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    final private String select = "Select";$/;"	f	class:mainActivity	file:
+selectID	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    final private int selectID = 255;$/;"	f	class:mainActivity	file:
+selectedCrosses	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private int       selectedCrosses;$/;"	f	class:mainActivity	file:
+selectedHub	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private Hub       selectedHub;$/;"	f	class:mainActivity	file:
+selectedRim	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private Rim       selectedRim;$/;"	f	class:mainActivity	file:
+selectedSpokes	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private int       selectedSpokes;$/;"	f	class:mainActivity	file:
+setCenterToDriveFlange	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public void setCenterToDriveFlange(double centerToDriveFlange) {$/;"	m	class:Hub
+setCentertoNonDriveFlange	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public void setCentertoNonDriveFlange(double centertoNonDriveFlange) {$/;"	m	class:Hub
+setDriveSideFlangeDiameter	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public void setDriveSideFlangeDiameter(double driveSideFlangeDiameter) {$/;"	m	class:Hub
+setEffectiveRimDiameter	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public void setEffectiveRimDiameter(double effectiveRimDiameter) $/;"	m	class:Rim
+setModel	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public void setModel(String model) {$/;"	m	class:Hub
+setModel	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public void setModel(String model) {$/;"	m	class:Rim
+setNondriveSideFlangeDiameter	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public void setNondriveSideFlangeDiameter(double nondriveSideFlangeDiameter) {$/;"	m	class:Hub
+setSelectionValid	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/MySpinner.java	/^    public void setSelectionValid(boolean valid)$/;"	m	class:MySpinner
+setSpokeBedOffset	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public void setSpokeBedOffset(int spokeBedOffset) $/;"	m	class:Rim
+setSpokeHoleStagger	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public void setSpokeHoleStagger(int spokeHoleStagger) $/;"	m	class:Rim
+setSpokeHoles	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public void setSpokeHoles(int spokeHoles) {$/;"	m	class:Hub
+setSpokes	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	public void setSpokes(int spokes) {$/;"	m	class:Wheel
+setUp	tests_host/src/basic.java	/^	public void setUp() throws Exception$/;"	m	class:basic
+setWheel	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	public void setWheel(Wheel wheel)$/;"	m	class:SpokeCalculation
+smaller	androidspokecalculator/l/README	/^You can choose whatever size you want for the layout. We suggest 320x52, as this is the largest ad unit size. If you choose to make the view smaller, ads will still display, but may cut off a few pixels and display a small scroll bar.$/;"	typedefs
+spokeCountArray	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private String[]  spokeCountArray;$/;"	f	class:mainActivity	file:
+spokeCountSelectedListener	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private OnItemSelectedListener spokeCountSelectedListener = new OnItemSelectedListener()$/;"	f	class:mainActivity	file:
+spokeCountSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private MySpinner spokeCountSpinner;$/;"	f	class:mainActivity	file:
+spokeCountTextView	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private TextView  spokeCountTextView;$/;"	f	class:mainActivity	file:
+spokeCrossArray	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private String[]  spokeCrossArray;$/;"	f	class:mainActivity	file:
+spokeCrossSelectedListener	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private OnItemSelectedListener spokeCrossSelectedListener = new OnItemSelectedListener()$/;"	f	class:mainActivity	file:
+spokeCrossSpinner	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private MySpinner spokeCrossSpinner;$/;"	f	class:mainActivity	file:
+spokeCrossTextView	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    private TextView  spokeCrossTextView;$/;"	f	class:mainActivity	file:
+spokeHoles	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^	public int    spokeHoles;$/;"	f	class:Hub
+spokeHoles	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^	public  int    spokeHoles;$/;"	f	class:Rim
+spoke_count_array	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int spoke_count_array=0x7f050000;$/;"	f	class:R.array
+spoke_count_spinner	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int spoke_count_spinner=0x7f060007;$/;"	f	class:R.id
+spoke_count_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int spoke_count_textview=0x7f060005;$/;"	f	class:R.id
+spoke_cross_array	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int spoke_cross_array=0x7f050001;$/;"	f	class:R.array
+spoke_cross_spinner	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int spoke_cross_spinner=0x7f060008;$/;"	f	class:R.id
+spoke_cross_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int spoke_cross_textview=0x7f060006;$/;"	f	class:R.id
+spokes	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Wheel.java	/^	private int spokes;$/;"	f	class:Wheel	file:
+string	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^    public static final class string {$/;"	c	class:R
+t	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity$4.class	/^ ˛∫æ/;"	typedefs
+tearDown	tests_host/src/basic.java	/^	public void tearDown() throws Exception$/;"	m	class:basic
+toString	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Brand.java	/^       public String toString()$/;"	m	class:Brand
+toString	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Hub.java	/^   public String toString()$/;"	m	class:Hub
+toString	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/Rim.java	/^    public String toString()$/;"	m	class:Rim
+truthBrandList	tests_host/src/basic.java	/^    private List<Brand>        truthBrandList         = new ArrayList<Brand>();$/;"	f	class:basic	file:
+truthHubBrandList	tests_host/src/basic.java	/^    private List<Brand>        truthHubBrandList      = new ArrayList<Brand>();$/;"	f	class:basic	file:
+truthHubChrisKingList	tests_host/src/basic.java	/^    private List<Hub>          truthHubChrisKingList  = new ArrayList<Hub>();$/;"	f	class:basic	file:
+truthRimBrandList	tests_host/src/basic.java	/^    private List<Brand>        truthRimBrandList      = new ArrayList<Brand>();$/;"	f	class:basic	file:
+truthRimNoTubesList	tests_host/src/basic.java	/^    private List<Rim>          truthRimNoTubesList    = new ArrayList<Rim>();$/;"	f	class:basic	file:
+v	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity$1.class	/^ ˛∫æ/;"	typedefs
+v1.0	androidspokecalculator/assets/pennyfarthing.xcf	/^Z/;"	m
+v1.0	androidspokecalculator/res/drawable-hdpi/pennyfarthing.png	/^/;"	m
+v1.0	androidspokecalculator/res/drawable-ldpi/pennyfarthing.png	/^/;"	m
+v1.0	androidspokecalculator/res/drawable-mdpi/pennyfarthing.png	/^/;"	m
+v1.0	androidspokecalculator/res/drawable-xhdpi/pennyfarthing.png	/^µ/;"	m
+valid	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/MySpinner.java	/^    private boolean valid;$/;"	f	class:MySpinner	file:
+vyz	androidspokecalculator/l/sqlite4java-282/sqlite4java.jar	/^L*Ù[/;"	typedefs
+wheel	androidspokecalculator/src/com/kineticsproject/spokecalculator/android/mainActivity.java	/^    Wheel   wheel;$/;"	f	class:mainActivity
+wheel	spokecalculator/src/com/kineticsproject/spokecalculator/calculator/SpokeCalculation.java	/^	private Wheel  wheel;$/;"	f	class:SpokeCalculation	file:
+wheel_textview	androidspokecalculator/gen/com/kineticsproject/spokecalculator/android/R.java	/^        public static final int wheel_textview=0x7f060000;$/;"	f	class:R.id
+x	androidspokecalculator/bin/classes/com/kineticsproject/spokecalculator/android/mainActivity$6.class	/^ ˛∫æ/;"	typedefs
+x52	androidspokecalculator/l/README	/^You can choose whatever size you want for the layout. We suggest 320x52, as this is the largest ad unit size. If you choose to make the view smaller, ads will still display, but may cut off a few pixels and display a small scroll bar.$/;"	typedefs
+√Á‡	androidspokecalculator/l/GoogleAdMobAdsSdk-6.2.1.jar	/^ûéA(ÛŸR√j2qΩ<óßq>ÒÂ≤/;"	typedefs
+√Á‡	androidspokecalculator/libs/GoogleAdMobAdsSdk-6.2.1.jar	/^ûéA(ÛŸR√j2qΩ<óßq>ÒÂ≤/;"	typedefs
+∆	androidspokecalculator/bin/res/drawable-mdpi/pennyfarthing.png	/^/;"	typedefs
+Ã.√	androidspokecalculator/l/sqlite4java-282/libsqlite4java-linux-i386.so	/^/;"	typedefs
+–‡	androidspokecalculator/l/sqlite4java-282/libsqlite4java-osx-ppc.jnilib	/^0/;"	typedefs
+—ˆ˚ˇ˚˝¸ˇ	androidspokecalculator/assets/pennyfarthing.xcf	/^/;"	typedefs
+	androidspokecalculator/bin/spokecalculator-release-unaligned.apk	/^—¢·ƒô45Ñ˘·Õ_„[ÏÅO˘Ã„HòàlÄ±Ê˛l⁄ÁõU[öqt8µ(1E.;/;"	typedefs
+	androidspokecalculator/bin/spokecalculator-release.apk	/^—¢·ƒô45Ñ˘·Õ_„[ÏÅO˘Ã„HòàlÄ±Ê˛l⁄ÁõU[öqt8µ(1E.;/;"	typedefs
+	androidspokecalculator/l/sqlite4java-282/sqlite4java-src.zip	/^/;"	typedefs
+Û	androidspokecalculator/l/GoogleAdMobAdsSdk-6.2.1.jar	/^ûéA(ÛŸR√j2qΩ<óßq>ÒÂ≤/;"	typedefs
+Û	androidspokecalculator/libs/GoogleAdMobAdsSdk-6.2.1.jar	/^ûéA(ÛŸR√j2qΩ<óßq>ÒÂ≤/;"	typedefs
+ı3	androidspokecalculator/l/sqlite4java-282/sqlite4java.jar	/^–vbb,†ÌL`÷,Ïuü˝QâÈñÔË÷qœ@Ÿ◊äö≤.]«ñ◊î◊‚/;"	typedefs
+ın˙iR	androidspokecalculator/bin/res/drawable-hdpi/pennyfarthing.png	/^ië\\mmœ∫øFïVÇî…NEP`_Á˚ßÎ/;"	typedefs
+˙	androidspokecalculator/l/sqlite4java-282/sqlite4java-docs.zip	/^/;"	typedefs
+˚¯	androidspokecalculator/l/sqlite4java-282/sqlite4java-docs.zip	/^/;"	typedefs
+˛„ˇ¯˛˝Ê	androidspokecalculator/assets/pennyfarthing.xcf	/^ˇˇÌ˝ˇˇ˝¸ˇˇ˝Ï€æïe?(/;"	typedefs
+˛Á˙ˇ˙€	androidspokecalculator/assets/pennyfarthing.xcf	/^eÀ˚˚ˇ¸Ú¶ /;"	typedefs
+˛Ú2	androidspokecalculator/assets/pennyfarthing.xcf	/^ˇˇÌ˝ˇˇ˝¸ˇˇ˝Ï€æïe?(/;"	typedefs
+ˇ 	androidspokecalculator/assets/pennyfarthing.xcf	/^4nó≈Á˚˛¸ˇ¯˛ˇ˛¸˛˛˝˚˘ˇÈ%/;"	typedefs
+ˇÈ˝¯˛ˇˇıÃ	androidspokecalculator/assets/pennyfarthing.xcf	/^ˇˇÌ˝ˇˇ˝¸ˇˇ˝Ï€æïe?(/;"	typedefs

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/usr/share/java" key="JavaClasspathTab.LAST_PATH_SETTING"/>
+	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
+		<item value="377" key="SashWeightDetails"/>
+		<item value="607" key="SashWeightTree"/>
+		<item value="204" key="HEIGHT"/>
+		<item value="700" key="WIDTH"/>
+	</section>
+</section>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<com.google.ads.AdView
+    ads:adSize="SMART_BANNER" 
+    ads:adUnitId="a150fc54a14fb40" 
+    ads:loadAdOnCreate="true" 
+    android:id="@+id/adView" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" />
+
+
+<Button
+    android:id="@+id/mountain_button"
+    android:layout_width="fill_parent"
+    android:layout_below="@+id/adView"
+    android:layout_height="50dp"
+    android:text="Mountain"
+    />
+
+<Button
+    android:id="@+id/road_button"
+    android:layout_width="fill_parent"
+    android:layout_below="@+id/mountain_button"
+    android:layout_height="50dp"
+    android:text="Road"
+    />
+
+<Button
+    android:id="@+id/bmx_button"
+    android:layout_width="fill_parent"
+    android:layout_below="@+id/road_button"
+    android:layout_height="50dp"
+    android:text="BMX"
+    />
+
+<Button
+    android:id="@+id/cyclocross_button"
+    android:layout_width="fill_parent"
+    android:layout_below="@+id/bmx_button"
+    android:layout_height="50dp"
+    android:text="Cyclocross"
+    />
+
+<Button
+    android:id="@+id/advanced_button"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_below="@+id/cyclocross_button"
+    android:text="Advanced"
+    />
+
+
+
+</RelativeLayout>
+
+
+

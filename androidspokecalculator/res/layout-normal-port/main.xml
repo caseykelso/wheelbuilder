@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<TextView
+    android:id="@+id/hub_brand_textview"
+    android:layout_width="fill_parent"
+    android:layout_height="16dp"
+    android:text="Hub Brand"
+    />
+
+
+<com.kineticsproject.spokecalculator.android.MySpinner
+    android:id="@+id/hub_brand_spinner"
+    android:singleLine="true"
+    android:layout_width="fill_parent"
+    android:layout_height="33dp"
+    android:ellipsize="marquee"
+    android:layout_below="@+id/hub_brand_textview"
+    />
+
+<TextView
+    android:id="@+id/hub_model_textview"
+    android:layout_height="16dp"
+    android:layout_width="fill_parent"
+    android:text="Hub Model"
+    android:layout_below="@+id/hub_brand_spinner"
+    />
+
+ 
+<com.kineticsproject.spokecalculator.android.MySpinner
+    android:id="@+id/hub_model_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="33dp"
+    android:layout_below="@+id/hub_model_textview" 
+    />
+    
+<TextView
+    android:id="@+id/spoke_count_textview"
+    android:layout_height="20dp"
+    android:text="Spoke Count"
+    android:layout_width="fill_parent"
+    android:layout_below="@+id/hub_model_spinner"
+    />
+ 
+<com.kineticsproject.spokecalculator.android.MySpinner
+    android:id="@+id/spoke_count_spinner"
+    android:layout_below="@+id/spoke_count_textview"
+    android:layout_height="34dp"
+    android:layout_width="fill_parent"
+    />
+
+<TextView
+    android:id="@+id/spoke_cross_textview"
+    android:layout_height="20dp"
+    android:text="Spoke Cross"
+    android:layout_width="fill_parent"
+    android:layout_below="@+id/spoke_count_spinner"
+    />
+
+   <com.kineticsproject.spokecalculator.android.MySpinner
+    android:id="@+id/spoke_cross_spinner"
+    android:layout_below="@+id/spoke_cross_textview" 
+    android:layout_height="34dp"
+    android:layout_width="fill_parent"
+    />
+
+    
+<TextView
+    android:id="@+id/rim_brand_textview"
+    android:layout_height="16dp"
+    android:text="Rim Brand"
+    android:layout_below="@+id/spoke_cross_spinner"
+    android:layout_width="fill_parent"
+    />
+
+<com.kineticsproject.spokecalculator.android.MySpinner
+    android:id="@+id/rim_brand_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="34dp"
+    android:layout_below="@+id/rim_brand_textview" 
+    />
+
+
+<TextView
+    android:id="@+id/rim_model_textview"
+    android:layout_height="16dp"
+    android:layout_width="fill_parent"
+    android:text="Rim Model"
+    android:layout_below="@+id/rim_brand_spinner" 
+    />
+
+<com.kineticsproject.spokecalculator.android.MySpinner
+    android:id="@+id/rim_model_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="34dp"
+    android:layout_below="@+id/rim_model_textview" 
+    />
+
+   
+<TextView
+    android:id="@+id/nondriveside_spokelength_label_textview"
+    android:layout_height="16dp"
+    android:layout_width="fill_parent"
+    android:text="Non-Drive-Side Spoke Length"
+    android:layout_below="@+id/rim_model_spinner"
+    />
+
+ <TextView
+    android:id="@+id/nondriveside_spokelength_textview"
+    android:layout_height="34dp"
+    android:layout_width="fill_parent"
+    android:singleLine="true"
+    style="@android:style/Widget.EditText"
+    android:layout_below="@+id/nondriveside_spokelength_label_textview"
+    />
+
+<TextView
+    android:id="@+id/driveside_spokelength_label_textview"
+    android:layout_height="16dp"
+    android:layout_width="fill_parent"
+    android:text="Drive-Side Spoke Length"
+    android:layout_below="@+id/nondriveside_spokelength_textview"
+    />
+
+ <TextView
+    android:id="@+id/driveside_spokelength_textview"
+    style="@android:style/Widget.EditText"
+    android:layout_height="34dp"
+    android:layout_width="fill_parent"
+    android:singleLine="true"
+    android:layout_below="@+id/driveside_spokelength_label_textview"
+    />
+
+
+<com.google.ads.AdView
+    ads:adSize="SMART_BANNER" 
+    ads:adUnitId="a150fc54a14fb40" 
+    ads:loadAdOnCreate="true" 
+    android:id="@+id/adView" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/driveside_spokelength_textview"
+    android:layout_width="wrap_content" />
+
+</RelativeLayout>
+
+
+

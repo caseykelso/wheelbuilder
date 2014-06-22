@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kinetics Project Wheel Builder</string>
+   
+    
+<string-array name="spoke_count_array">
+        <item>Select</item>
+        <item>18</item>
+        <item>20</item>
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
+        <item>36</item>
+</string-array>
+
+
+<string-array name="spoke_cross_array">
+        <item>Select</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>radial</item>
+</string-array>
+      
+</resources>
