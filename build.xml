@@ -82,8 +82,8 @@
  
    <!-- this needs to be a shell call from the sub-directory else it will build all projects in the root path -->
    <target name="update">
-      <echo message="${android.home}" />
-      <exec executable="${android.home}/tools/android" dir="androidspokecalculator" failonerror="true">
+      <echo message="${env.ANDROID_HOME}/tools" />
+      <exec executable="${env.ANDROID_HOME}/tools/android" dir="androidspokecalculator" failonerror="true">
         <arg value="update" />
        <arg value="project" />
         <arg value="-p" />
