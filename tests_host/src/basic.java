@@ -9,11 +9,11 @@ import java.util.Collection;
 import java.util.ArrayList;
 import com.almworks.sqlite4java.*;
 
-public class basic extends SpokeCalculation
+public class basic 
 {
 
-	private Rim   		       StansOlympic26;
-    private Rim                StansCrest29;
+	private Rim   		   StansOlympic26;
+	private Rim                StansCrest29;
 	private Hub 	           ChrisKingUniversalDiscRearHub;
 	private Wheel 	           blurRearWheel;
 	private Hub                ExampleHub;
@@ -23,13 +23,13 @@ public class basic extends SpokeCalculation
 	private Collection<Rim>    rims;
 	private Collection<Hub>    hubs;
 	private ComponentContainer components;
-    private DatabaseAdapter    dbAdapter;
-    private List<Brand>        truthHubBrandList      = new ArrayList<Brand>();
-    private List<Brand>        truthRimBrandList      = new ArrayList<Brand>();
-    private List<Brand>        truthBrandList         = new ArrayList<Brand>();
-    private List<Hub>          truthHubChrisKingList  = new ArrayList<Hub>();
-    private List<Rim>          truthRimNoTubesList    = new ArrayList<Rim>();
-    static final double        doubleDelta = 0.001;
+	private DatabaseAdapter    dbAdapter;
+	private List<Brand>        truthHubBrandList      = new ArrayList<Brand>();
+	private List<Brand>        truthRimBrandList      = new ArrayList<Brand>();
+	private List<Brand>        truthBrandList         = new ArrayList<Brand>();
+	private List<Hub>          truthHubChrisKingList  = new ArrayList<Hub>();
+	private List<Rim>          truthRimNoTubesList    = new ArrayList<Rim>();
+	static final double        doubleDelta = 0.001;
 		
 	@Before
 	public void setUp() throws Exception
@@ -38,69 +38,69 @@ public class basic extends SpokeCalculation
 		ChrisKingUniversalDiscRearHub 	= new Hub(53.0,53.0,21.0,34.0, 32, "Universal Disc", "Chris King", 1, 0);
 		ExampleHub                      = new Hub(38,38, 36.0, 36.0, 32, "Example", "Example", 1, 0);
 		ExampleRim                      = new Rim(540.0, 0, 0);
-		StansOlympic26 		        	= new Rim(536.0, "ZTR Olympic", "Stan's Notubes", 6, 26.0, 0, 32);
-        StansCrest29                    = new Rim(605.0, "ZTR Crest", "Stan's Notubes", 6, 29.0, 1, 32);
-		blurRearWheel 	        		= new Wheel(StansOlympic26,ChrisKingUniversalDiscRearHub,3,32);
+		StansOlympic26 	           	= new Rim(536.0, "ZTR Olympic", "Stan's Notubes", 6, 26.0, 0, 32);
+		StansCrest29                    = new Rim(605.0, "ZTR Crest", "Stan's Notubes", 6, 29.0, 1, 32);
+		blurRearWheel 	        	= new Wheel(StansOlympic26,ChrisKingUniversalDiscRearHub,3,32);
 		ExampleWheel                    = new Wheel(ExampleRim, ExampleHub, 3,32);
 		components                      = new ComponentContainer();
-        dbAdapter           			= new DatabaseAdapter();
-        Brand                           truthBrand;
-        Rim                             truthRim;
-        Hub                             truthHub;
+                dbAdapter           		= new DatabaseAdapter();
+                Brand                           truthBrand;
+                Rim                             truthRim;
+                Hub                             truthHub;
       
-        /* Generate a Hub List for Verification */ 
-        truthHub = ChrisKingUniversalDiscRearHub; 
-        truthHubChrisKingList.add(truthHub);
+		/* Generate a Hub List for Verification */ 
+		truthHub = ChrisKingUniversalDiscRearHub; 
+		truthHubChrisKingList.add(truthHub);
 
-        /* Generate a Rim List for Verification */
-        truthRim           = StansOlympic26;
-        truthRimNoTubesList.add(truthRim);
-        
-        truthRim           = StansCrest29;
-        truthRimNoTubesList.add(truthRim);
+		/* Generate a Rim List for Verification */
+		truthRim           = StansOlympic26;
+		truthRimNoTubesList.add(truthRim);
 
-       
-        /* Generate Brand Lists for Verification */ 
-        truthBrand = new Brand();
-        truthBrand.id    = 1;
-        truthBrand.name  = "Chris King";
-        truthBrandList.add(truthBrand);
-        truthHubBrandList.add(truthBrand);
+		truthRim           = StansCrest29;
+		truthRimNoTubesList.add(truthRim);
 
-        truthBrand = new Brand();
-        truthBrand.id    = 2;
-        truthBrand.name  = "American Classic";
-        truthBrandList.add(truthBrand);
-        truthHubBrandList.add(truthBrand);
-        truthRimBrandList.add(truthBrand);
-	
-        truthBrand = new Brand();
-        truthBrand.id    = 3;
-        truthBrand.name  = "DT Swiss";
-        truthBrandList.add(truthBrand);
-        truthHubBrandList.add(truthBrand);
-        truthRimBrandList.add(truthBrand);
-	
 
-        truthBrand = new Brand();
-        truthBrand.id    = 4;
-        truthBrand.name  = "Hope";
-        truthBrandList.add(truthBrand);
-        truthHubBrandList.add(truthBrand);
+		/* Generate Brand Lists for Verification */ 
+		truthBrand = new Brand();
+		truthBrand.id    = 1;
+		truthBrand.name  = "Chris King";
+		truthBrandList.add(truthBrand);
+		truthHubBrandList.add(truthBrand);
 
-        truthBrand = new Brand();
-        truthBrand.id    = 5;
-        truthBrand.name  = "Shimano";
-        truthBrandList.add(truthBrand);
-        truthHubBrandList.add(truthBrand);
+		truthBrand = new Brand();
+		truthBrand.id    = 2;
+		truthBrand.name  = "American Classic";
+		truthBrandList.add(truthBrand);
+		truthHubBrandList.add(truthBrand);
+		truthRimBrandList.add(truthBrand);
 
-        truthBrand = new Brand();
-        truthBrand.id    = 6;
-        truthBrand.name  = "Stan's Notubes";
-        truthBrandList.add(truthBrand);
-        truthHubBrandList.add(truthBrand);
-        truthRimBrandList.add(truthBrand);
-	
+		truthBrand = new Brand();
+		truthBrand.id    = 3;
+		truthBrand.name  = "DT Swiss";
+		truthBrandList.add(truthBrand);
+		truthHubBrandList.add(truthBrand);
+		truthRimBrandList.add(truthBrand);
+
+
+		truthBrand = new Brand();
+		truthBrand.id    = 4;
+		truthBrand.name  = "Hope";
+		truthBrandList.add(truthBrand);
+		truthHubBrandList.add(truthBrand);
+
+		truthBrand = new Brand();
+		truthBrand.id    = 5;
+		truthBrand.name  = "Shimano";
+		truthBrandList.add(truthBrand);
+		truthHubBrandList.add(truthBrand);
+
+		truthBrand = new Brand();
+		truthBrand.id    = 6;
+		truthBrand.name  = "Stan's Notubes";
+		truthBrandList.add(truthBrand);
+		truthHubBrandList.add(truthBrand);
+		truthRimBrandList.add(truthBrand);
+
 	}
 
 	@After
@@ -162,7 +162,7 @@ public class basic extends SpokeCalculation
     public void TestHubEquals() throws Exception
     {
 
-		Hub ChrisKingUniversalDiscRearHub2 	= new Hub(53,53,21.0,34.0, 32, "Universal Disc", "Chris King", 1, 0);
+	Hub ChrisKingUniversalDiscRearHub2 	= new Hub(53,53,21.0,34.0, 32, "Universal Disc", "Chris King", 1, 0);
         assertEquals(true, ChrisKingUniversalDiscRearHub.equals(ChrisKingUniversalDiscRearHub2));
         ChrisKingUniversalDiscRearHub2.spokeHoles = 22;
         assertEquals(false, ChrisKingUniversalDiscRearHub.equals(ChrisKingUniversalDiscRearHub2));
@@ -175,7 +175,7 @@ public class basic extends SpokeCalculation
     public void TestRimEquals() throws Exception
     {
 
-		Rim StansOlympic26_2 		        	= new Rim(536.0, "ZTR Olympic", "Stan's Notubes", 6, 26.0, 0, 32);
+	Rim StansOlympic26_2 		       	= new Rim(536.0, "ZTR Olympic", "Stan's Notubes", 6, 26.0, 0, 32);
         Rim StansCrest29_2                      = new Rim(605.0, "ZTR Crest", "Stan's Notubes", 6, 29.0, 1, 32);
         assertEquals(true, StansOlympic26_2.equals(StansOlympic26));
         assertEquals(true, StansCrest29_2.equals(StansCrest29));

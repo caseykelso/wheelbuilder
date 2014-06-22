@@ -10,18 +10,6 @@ public class Wheel
 	private int crosses;
 	private int spokes;
 
-	public double getDrivesideSpokes()
-	{
-		return 0.2;
-	}
-
-
-	public double getNondrivesideSpokes()
-	{
-		
-		return 0.0;
-	}
-
 
 	public int getCrosses() 
 	{
@@ -44,7 +32,6 @@ public class Wheel
 	
 	public Wheel(Rim rim, Hub hub, int crosses, int spokes) 
 	{
-	//	super();
 		this.rim 				= rim;
 		this.hub 				= hub;
 		this.crosses 			= crosses;
@@ -93,12 +80,14 @@ public class Wheel
 	}
 
 
-	public int getSpokes() {
+	public int getSpokes() 
+        {
 		return spokes;
 	}
 
 
-	public void setSpokes(int spokes) {
+	public void setSpokes(int spokes) 
+        {
 		this.spokes = spokes;
 	}
 

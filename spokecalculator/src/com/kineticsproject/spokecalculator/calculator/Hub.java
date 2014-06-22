@@ -163,10 +163,10 @@ public class Hub
 			   double centerToDriveFlange,
 			   double centerToNonDriveFlange,
 			   int spokeHoles,
-               String model,
-               String brandName,
-               int brandID,
-               int ID)
+               		   String model,
+                           String brandName,
+                           int brandID,
+                           int ID)
          
 	{
 		this.driveSideFlangeDiameter	  	= driveSideFlangeDiameter;
@@ -174,10 +174,10 @@ public class Hub
 		this.centerToDriveFlange          	= centerToDriveFlange;
 		this.centerToNonDriveFlange       	= centerToNonDriveFlange;
 		this.spokeHoles 			       	= spokeHoles;
-        this.model                          = model;
-        this.brandName                      = brandName;
-        this.brandID                        = brandID;
-        this.ID                             = ID;
+	        this.model                          = model;
+        	this.brandName                      = brandName;
+        	this.brandID                        = brandID;
+        	this.ID                             = ID;
 	}
 	
 }
