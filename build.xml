@@ -92,7 +92,7 @@
         <arg value="android-19" />
       </exec>
 
-      <exec executable="${android.home}/tools/android" dir="androidspokecalculator_test" failonerror="true">
+      <exec executable="${env.ANDROID_HOME}/tools/android" dir="androidspokecalculator_test" failonerror="true">
         <arg value="update" />
         <arg value="project" />
         <arg value="-p" />
@@ -184,7 +184,7 @@
    </target>
 
    <target name="launch">
-     <exec executable="${android.home}/platform-tools/adb">
+     <exec executable="${env.ANDROID_HOME}/platform-tools/adb">
        <arg value="shell" />
        <arg value="am" />
        <arg value="start" />
@@ -194,7 +194,7 @@
    </target>
     
    <target name="log">
-     <exec executable="${android.home}/platform-tools/adb" failonerror="true">
+     <exec executable="${env.ANDROID_HOME}/platform-tools/adb" failonerror="true">
        <arg value="logcat" />
      </exec>
    </target>
