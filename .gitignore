@@ -1,2 +1,7 @@
 .ant-targets-build.xml
-
+androidspokecalculator/assets/spokecalculator.db
+androidspokecalculator/bin/
+androidspokecalculator/gen/
+androidspokecalculator/libs/
+build/
+lib/calculator.jar
