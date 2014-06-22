@@ -199,52 +199,6 @@
      </exec>
    </target>
 
-  <target name="emulator_start_galaxy_s3">
-     <exec executable="emulator-arm" failonerror="true">
-       <arg value="-verbose" />
-       <arg value="-noaudio" />
-       <arg value="-avd" />
-       <arg value="galaxy_s3" />
-     </exec>
-   </target>
-
-     <target name="emulator_start_andy_small">
-     <exec executable="emulator-arm" failonerror="true">
-       <arg value="-verbose" />
-       <arg value="-noaudio" />
-       <arg value="-avd" />
-       <arg value="andy_small" />
-     </exec>
-   </target>
-
-  <target name="emulator_start_phone_froyo">
-     <exec executable="emulator-arm" failonerror="true">
-       <arg value="-verbose" />
-       <arg value="-noaudio" />
-       <arg value="-avd" />
-       <arg value="andy_phone_froyo" />
-     </exec>
-   </target>
-
-   <target name="nexus10">
-     <exec executable="${android.home}/tools/emulator-x86" failonerror="true">
-       <arg value="-verbose" />
-       <arg value="-noaudio" />
-       <arg value="-avd" />
-       <arg value="nexus10" />
-     </exec>
-   </target>
-
-  
-   <target name="emulator_start_tab7">
-     <exec executable="emulator-arm" failonerror="true">
-       <arg value="-verbose" />
-       <arg value="-noaudio" />
-       <arg value="-avd" />
-       <arg value="andy_tab7" />
-     </exec>
-   </target>
-
    <target name="install_debug">
      <ant dir="androidspokecalculator" target="installd" />
    </target>

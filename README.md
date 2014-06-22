@@ -14,3 +14,6 @@ Android application for building Bicycle Wheels.  Includes a database of 100s of
 <h2>From Scratch</h2>
 <code>ant all</code>
 
+<h2>Incremental Build With Deploy and Launch</h2>
+<code>ant go</code>
+
