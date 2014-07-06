@@ -498,7 +498,7 @@ public class basicActivity extends Activity
 
                     adapterRimModel = new ArrayAdapter<Rim>(this, android.R.layout.simple_spinner_item, rimArray);
 
-                    /* Setup the rim model spinner */
+                    // Setup the rim model spinner
                     rimModelSpinner = (MySpinner) findViewById(R.id.rim_model_spinner);
 
                     // Specify the layout to use when the list of choices appears
