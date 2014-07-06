@@ -433,12 +433,18 @@ public class basicActivity extends Activity
         } 
     }
 
+
     public void populateRimBrandSpinner()
+    {
+       populateRimBrandSpinner("mountain");
+    }
+ 
+    public void populateRimBrandSpinner(String type)
     {
         try
         {
             
-            List<Brand> rimBrandList = dbAdapter.getRimBrands("mountain");
+            List<Brand> rimBrandList = dbAdapter.getRimBrands(type);
             rimBrandArray = new Brand[rimBrandList.size()+1];
             rimBrandList.toArray(rimBrandArray);
 

@@ -10,6 +10,12 @@ import com.kineticsproject.spokecalculator.android.basicActivity;
 public class basicRoadActivity extends basicActivity
 {
 
+    public void populateRimBrandSpinner()
+    {
+       populateRimBrandSpinner("road");
+    }
+ 
+
     public void populateRimModelSpinner(int brand)
     {
             

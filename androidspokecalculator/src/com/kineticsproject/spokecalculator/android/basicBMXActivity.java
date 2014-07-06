@@ -10,6 +10,12 @@ import com.kineticsproject.spokecalculator.android.basicActivity;
 public class basicBMXActivity extends basicActivity
 {
 
+
+    public void populateRimBrandSpinner()
+    {
+       populateRimBrandSpinner("bmx");
+    }
+ 
     public void populateRimModelSpinner(int brand)
     {
             

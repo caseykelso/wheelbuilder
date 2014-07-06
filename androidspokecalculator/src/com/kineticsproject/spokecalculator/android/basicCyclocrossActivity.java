@@ -10,6 +10,11 @@ import com.kineticsproject.spokecalculator.android.basicActivity;
 public class basicCyclocrossActivity extends basicActivity
 {
 
+    public void populateRimBrandSpinner()
+    {
+       populateRimBrandSpinner("cyclocross");
+    }
+ 
     public void populateRimModelSpinner(int brand)
     {
             

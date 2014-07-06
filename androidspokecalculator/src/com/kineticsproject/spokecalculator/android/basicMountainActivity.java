@@ -10,6 +10,11 @@ import com.kineticsproject.spokecalculator.android.basicActivity;
 public class basicMountainActivity extends basicActivity
 {
 
+    public void populateRimBrandSpinner()
+    {
+       populateRimBrandSpinner("mountain");
+    }
+ 
     public void populateHubModelSpinner(int brandIndex)
     {
 
