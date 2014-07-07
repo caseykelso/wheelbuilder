@@ -193,11 +193,30 @@
      </exec>
    </target>
     
-   <target name="log">
+   <target name="log_all">
      <exec executable="${env.ANDROID_HOME}/platform-tools/adb" failonerror="true">
        <arg value="logcat" />
      </exec>
    </target>
+
+   <target name="log_tag">
+     <echo message="${package.name}:I" />
+     <exec executable="${env.ANDROID_HOME}/platform-tools/adb" failonerror="true">
+       <arg value="logcat" />
+       <arg value="${package.name}:*" />
+       <arg value="*:S" /> 
+     </exec>
+   </target>
+
+
+<!-- borrowed from stack overflow:
+http://stackoverflow.com/questions/6854127/filter-logcat-to-get-only-the-messages-from-my-application-in-android
+-->
+   <target name="log_app">
+     <exec executable="${basedir}/log_app.sh" failonerror="true">
+     </exec>
+   </target>
+
 
    <target name="install_debug">
      <ant dir="androidspokecalculator" target="installd" />

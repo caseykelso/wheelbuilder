@@ -64,9 +64,16 @@ public class basicActivity extends Activity
 
     Wheel   wheel;
 
+    protected String type;
+
     protected Button calculateButton;
     final protected String select = "Select";
     final protected int selectID = 255;
+
+     public basicActivity()
+     {
+          type = "mountain";
+     }
 
     protected void checkEnableCalculateButton()
     {
@@ -344,6 +351,7 @@ public class basicActivity extends Activity
         // add listener
         spokeCrossSpinner.setOnItemSelectedListener(spokeCrossSelectedListener);
     }
+
     public void populateHubModelSpinner(int brandIndex)
     {
 
@@ -353,7 +361,7 @@ public class basicActivity extends Activity
 
             try
             {
-            List<Hub> hubModelList = dbAdapter.getHubsOfBrand(brandIndex, "mountain");
+            List<Hub> hubModelList = dbAdapter.getHubsOfBrand(brandIndex, type);
             hubArray = new Hub[hubModelList.size()+1];
             hubModelList.toArray(hubArray);
 
@@ -401,7 +409,7 @@ public class basicActivity extends Activity
         try 
         {
 
-            List<Brand> hubBrandList = dbAdapter.getHubBrands("mountain");
+            List<Brand> hubBrandList = dbAdapter.getHubBrands(type);
             hubBrandArray = new Brand[hubBrandList.size()+1];
             hubBrandList.toArray(hubBrandArray);
 
@@ -434,12 +442,8 @@ public class basicActivity extends Activity
     }
 
 
+
     public void populateRimBrandSpinner()
-    {
-       populateRimBrandSpinner("mountain");
-    }
- 
-    public void populateRimBrandSpinner(String type)
     {
         try
         {
@@ -488,7 +492,7 @@ public class basicActivity extends Activity
                 {
                 rimBrandIndex = brand;
 
-                List<Rim> rimList = dbAdapter.getRimsOfBrand(brand, "mountain");
+                List<Rim> rimList = dbAdapter.getRimsOfBrand(brand, type);
 
                 if (rimList.size() > 0)
                 {
@@ -594,8 +598,9 @@ public class basicActivity extends Activity
         {
             populateRimModelSpinner(6);
             populateHubModelSpinner(1);
+            System.out.println("********#(#*#(*#(*##(*#(*##(* NO REINIT");
         }
-        else
+        else 
         {
             populateRimModelSpinner(tmpRimBrandIndex);
             populateHubModelSpinner(tmpHubBrandIndex);

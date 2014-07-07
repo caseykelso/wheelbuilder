@@ -404,14 +404,17 @@ public class DatabaseAdapter extends SQLiteOpenHelper implements com.kineticspro
         List<Rim> l = new ArrayList<Rim>();
 
     
-       String querystr = "SELECT rims._id, rims.model, rims.erd, rims.diameter, rims.holes, brands.name,  brands._id FROM rims, brands WHERE (rims.brand_id = '"+brand_id+"') AND (brands._id = '"+brand_id+"') AND (rims.types like '%"+type+"%')";
-       
+//       String querystr = "SELECT rims._id, rims.model, rims.erd, rims.diameter, rims.holes, brands.name, brands._id FROM rims, brands WHERE ((rims.types like '%"+type+"%') AND (rims.brand_id = '"+brand_id+"') AND (brands._id = '"+brand_id+"')";
+// AND (rims.types like '%"+type+"%')))";
+
+       String querystr = "SELECT rims._id, rims.model, rims.erd, rims.diameter, rims.holes, brands.name, brands._id FROM rims, brands WHERE ( rims.types LIKE '%"+type+"%'  ) AND (rims.brand_id = '"+brand_id+"')  AND  (brands._id = '"+brand_id+"')";
+
 
        Log.w("**********getRimsOfBrand Query", querystr);
 
        Cursor cursor = database.rawQuery(querystr , null);
- 
-     
+    
+       Log.w(",","***********getRimsOfBrand Query, row count: "+ cursor.getCount()); 
        if (cursor.moveToFirst())
        {
            Rim r = new Rim(); 
