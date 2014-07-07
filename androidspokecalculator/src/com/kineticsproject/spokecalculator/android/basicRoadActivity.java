@@ -13,7 +13,7 @@ public class basicRoadActivity extends basicActivity
     public basicRoadActivity()
     { 
         super();
-        type = "mountain";
+        type = "road";
 
     }
 
