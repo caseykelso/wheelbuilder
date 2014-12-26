@@ -89,7 +89,7 @@
         <arg value="-p" />
         <arg value="." />
         <arg value="--target" />
-        <arg value="android-19" />
+        <arg value="android-21" />
       </exec>
 
       <exec executable="${env.ANDROID_HOME}/tools/android" dir="androidspokecalculator_test" failonerror="true">
